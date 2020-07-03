@@ -1,59 +1,48 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, Nav, NavbarToggler, Collapse, NavItem } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
 
 class Header extends Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            isNavOpen: false
+    render() {
+        if (this.props.data) {
+            var github = this.props.data.github;
+            var name = this.props.data.name;
+            var description = this.props.data.description;
+            var city = this.props.data.address.city;
+            var networks = this.props.data.social.map((network) => {
+                return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+            })
         }
 
-        this.toggleNav = this.toggleNav.bind(this);
-    }
-
-    toggleNav() {
-        this.setState({ isNavOpen: !this.state.isNavOpen });
-    }
-
-    render() {
         return (
-            <React.Fragment>
-                <Navbar expand="md">
-                    <div className="container">
-                        <NavbarToggler onClick={this.toggleNav} />
-                        <NavbarBrand className="mr-auto" href="/">
-                            <img src="images/inphamous_logo.png" height="100" width="180" alt="inPHAMous Technologies" />
-                        </NavbarBrand>
-                        <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/">
-                                        <span className="fa fa-home fa-lg"></span> Home
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/about">
-                                        <span className="fa fa-info fa-lg"></span> About Me
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/projects">
-                                        <span className="fa fa-list fa-lg"></span> Projects
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/contact">
-                                        <span className="fa fa-address-card fa-lg"></span> Contact Me
-                                    </NavLink>
-                                </NavItem>
-                            </Nav>
-                        </Collapse>
+            <header id="home">
+                <nav id="nav-wrap">
+                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                    <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
+
+                    <ul id="nav" className="nav">
+                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+                        <li><a className="smoothscroll" href="#about">About</a></li>
+                        <li><a className="smoothscroll" href="#resume">Resume</a></li>
+                        <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
+                        <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div className="row banner">
+                    <div className="banner-text">
+                        <h1 className="responsive-headline">{name}</h1>
+                        <h3>{description}</h3>
+                        <hr />
+                        <ul className="social">
+                            <a href={github} className="button btn github-btn"><i className="fa fa-github"></i> Github</a>
+                        </ul>
                     </div>
-                </Navbar>
-            </React.Fragment>
+                </div>
+
+                <p className="scrolldown">
+                    <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                </p>
+            </header>
         );
     }
 }

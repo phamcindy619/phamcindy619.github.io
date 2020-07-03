@@ -1,24 +1,50 @@
 import React, { Component } from 'react';
-import Home from './HomeComponent';
-import About from './AboutComponent';
-import Project from './ProjectComponent';
-import Contact from './ContactComponent';
+import $ from 'jquery';
 import Header from './HeaderComponent';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import Footer from './FooterComponent';
+import About from './AboutComponent';
+import Resume from './ResumeComponent';
+import Contact from './ContactComponent';
+import Portfolio from './PortfolioComponent';
 
 class Main extends Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            resumeData: {}
+        };
+    }
+
+    getResumeData() {
+        $.ajax({
+            url: './files/resumeData.json',
+            dataType: 'json',
+            cache: false,
+            success: ((data) => {
+                this.setState({ resumeData: data });
+            }).bind(this),
+            error: ((xhr, status, err) => {
+                console.log(err);
+                alert(err);
+            })
+        });
+    }
+
+    componentDidMount() {
+        this.getResumeData();
+    }
 
     render() {
         return (
             <div>
-                <Header />
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/about" component={About} />
-                    <Route path="/projects" component={Project} />
-                    <Route path="/contact" component={Contact} />
-                    <Redirect to="/" />
-                </Switch>
+                <Header data={this.state.resumeData.main} />
+                <About data={this.state.resumeData.main} />
+                <Resume data={this.state.resumeData.resume} />
+                <Portfolio data={this.state.resumeData.portfolio} />
+
+                <Footer data={this.state.resumeData.main} />
             </div>
         );
     }

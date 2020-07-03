@@ -1,0 +1,54 @@
+{
+    "main": {
+        "name": "Cindy Pham",
+        "description": "",
+        "image": "inphamous_logo.png",
+        "bio": "I am currently a senior in Computer Science at the University of Texas at Austin.",
+        "contactmessage": "Contact me",
+        "email": "phamcindy619@utexas.edu",
+        "phone": "512-903-8260",
+        "github": "https://github.com/phamcindy619",
+        "address": {
+            "city": "Austin",
+            "state": "Texas"
+        },
+        "resumedownload": "CindyPhamResume.pdf",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/phamcindy619",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/phamcindy619",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "",
+        "education": [
+            {
+                "school": "University of Texas at Austin",
+                "degree": "Bachelor's in Computer Science",
+                "graduated": "May 2021"
+            }
+        ],
+        "skills": [
+            "Java",
+            "Python",
+            ""
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Sketch Art",
+                "description": "",
+                "image": "",
+                "url": ""
+            }
+        ]
+    }
+}
