@@ -16,10 +16,17 @@ class Resume extends Component {
                     </div>
                 );
             });
-            var skills = this.props.data.skills.map((skill) => {
+            var languages = this.props.data.skills.languages.map((language) => {
                 return (
-                    <li key={skill}>
-                        {skill}
+                    <li key={language}>
+                        {language}
+                    </li>
+                );
+            });
+            var frameworks = this.props.data.skills.frameworks.map((framework) => {
+                return (
+                    <li key={framework}>
+                        {framework}
                     </li>
                 );
             });
@@ -46,10 +53,17 @@ class Resume extends Component {
                         <h1><span>Skills</span></h1>
                     </div>
 
-                    <div className="nine columns main-col">
-                        <p>{skillmessage}</p>
+                    <div className="four columns main-col">
+                        <h1>Languages</h1>
                         <ul className="skills">
-                            {skills}
+                            {languages}
+                        </ul>
+                    </div>
+
+                    <div className="four columns main-col">
+                        <h1>Frameworks</h1>
+                        <ul className="skills">
+                            {frameworks}
                         </ul>
                     </div>
                 </div>

@@ -9,19 +9,7 @@ class Portfolio extends Component {
                 var projectImage = 'images/' + project.image;
 
                 return (
-                    <div key={project.title} className="columns portfolio-item">
-                        <div className="item-wrap">
-                            <a href={project.url} title={project.title}>
-                                <img src={projectImage} alt={project.title} />
-                                <div className="overlay">
-                                    <div className="portfolio-item-meta">
-                                        <h5>{project.title}</h5>
-                                        <p>{project.description}</p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
+                    <div></div>
                 );
             })
         }
