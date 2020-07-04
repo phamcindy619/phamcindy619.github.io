@@ -4,7 +4,6 @@ class Header extends Component {
 
     render() {
         if (this.props.data) {
-            var github = this.props.data.github;
             var name = this.props.data.name;
             var description = this.props.data.description;
             var city = this.props.data.address.city;
@@ -34,8 +33,9 @@ class Header extends Component {
                         <h3>{description}</h3>
                         <hr />
                         <ul className="social">
-                            <a href={github} className="button btn github-btn"><i className="fa fa-github"></i> Github</a>
+                            {networks}
                         </ul>
+                        <span>Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jefferson Santos</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
                     </div>
                 </div>
 

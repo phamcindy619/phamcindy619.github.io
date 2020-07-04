@@ -1,13 +1,12 @@
 {
     "main": {
         "name": "Cindy Pham",
-        "description": "",
-        "image": "inphamous_logo.png",
+        "description": "Full Stack Web Developer | Game Engineer | Android App Developer",
+        "image": "profilepic.jpg",
         "bio": "I am currently a senior in Computer Science at the University of Texas at Austin.",
         "contactmessage": "Contact me",
         "email": "phamcindy619@utexas.edu",
         "phone": "512-903-8260",
-        "github": "https://github.com/phamcindy619",
         "address": {
             "city": "Austin",
             "state": "Texas"
@@ -15,9 +14,19 @@
         "resumedownload": "CindyPhamResume.pdf",
         "social": [
             {
+                "name": "facebook",
+                "url": "https://www.facebook.com/cindypham619",
+                "className": "fa fa-facebook"
+            },
+            {
                 "name": "linkedin",
                 "url": "https://www.linkedin.com/in/phamcindy619",
                 "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/phamc619",
+                "className": "fa fa-instagram"
             },
             {
                 "name": "github",
