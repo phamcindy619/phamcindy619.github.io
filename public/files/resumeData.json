@@ -58,6 +58,7 @@
                 "Bootstrap",
                 "ReactJS",
                 "NodeJS",
+                "Flask",
                 "Unity3D",
                 "Android Studio",
                 "MongoDB"
@@ -68,9 +69,27 @@
         "projects": [
             {
                 "title": "Sketch Art",
-                "description": "",
-                "image": "",
+                "description": "Android application for drawing",
+                "image": "sketchart.png",
                 "url": "https://play.google.com/store/apps/details?id=com.inphamous.sketchart"
+            },
+            {
+                "title": "Mina's Homebody Adventure",
+                "description": "Unity2D adventure game",
+                "image": "minagame.png",
+                "url": "https://phamcindy619.itch.io/minas-homebody-adventure"
+            },
+            {
+                "title": "nav.igate",
+                "description": "Web calendar application for scheduling meetings based on distance",
+                "image": "navigate.png",
+                "url": "https://ru-hacks-2020.ue.r.appspot.com"
+            },
+            {
+                "title": "Social Story",
+                "description": "Web application for sexual assault data visualization",
+                "image": "socialstory.png",
+                "url": "https://manyaagarwal.github.io/datastory/"
             }
         ]
     }

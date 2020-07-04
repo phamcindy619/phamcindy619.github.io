@@ -35,7 +35,6 @@ class Header extends Component {
                         <ul className="social">
                             {networks}
                         </ul>
-                        <span>Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jefferson Santos</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
                     </div>
                 </div>
 
