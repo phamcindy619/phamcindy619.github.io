@@ -5,11 +5,6 @@ class Contact extends Component {
     render() {
 
         if (this.props.data) {
-            var name = this.props.data.name;
-            var city = this.props.data.address.city;
-            var state = this.props.data.address.state;
-            var phone = this.props.data.phone;
-            var email = this.props.data.email;
             var message = this.props.data.contactmessage;
         }
 
@@ -21,6 +16,8 @@ class Contact extends Component {
                     </div>
                     <div className="ten columns">
                         <p className="lead">{message}</p>
+                        <br />
+                        <p className="lead warning">Warning: Contact form not working yet, please contact me via email for now</p>
                     </div>
 
                     <div className="row">
