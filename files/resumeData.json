@@ -3,8 +3,8 @@
         "name": "Cindy Pham",
         "description": "Full Stack Web Developer | Game Engineer | Android App Developer",
         "image": "profilepic.jpg",
-        "bio": "I am currently a senior in Computer Science at the University of Texas at Austin.",
-        "contactmessage": "Contact me",
+        "bio": "I am currently a senior in Computer Science at the University of Texas at Austin. My hobbies include playing the piano, guitar, and violin and producing music.",
+        "contactmessage": "Contact Me",
         "email": "phamcindy619@utexas.edu",
         "phone": "512-903-8260",
         "address": {
@@ -40,7 +40,8 @@
             {
                 "school": "University of Texas at Austin",
                 "degree": "Bachelor's in Computer Science",
-                "graduated": "May 2021"
+                "graduated": "May 2021",
+                "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers"
             }
         ],
         "skills": {

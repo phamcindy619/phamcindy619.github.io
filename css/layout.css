@@ -211,7 +211,8 @@ ul#nav li.current a { color: #fe6928; }
 #about .profile-pic {
    position: relative;
    width: 120px;
-   border-radius: 8px;
+   height: 120px;
+   border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -580,8 +581,9 @@ ul#nav li.current a { color: #fe6928; }
 .popup-modal .link-box a:first-child {
    border-right: 1px solid rgba(200, 200, 200, 0.1);
 }
-.popup-modal a:hover {	
-   color: #00CCCC;
+.popup-modal a:hover {
+   color: #0D0D0D;	
+   background: #00CCCC;
 }
 
 @media only screen and (max-width: 600px) {
@@ -827,7 +829,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #fff;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -861,6 +863,9 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+}
+#contact p.lead.warning {
+   color: #D72828;
 }
 #contact .header-col { padding-top: 6px; }
 
@@ -1008,6 +1013,12 @@ footer .social-links li {
     padding: 0;
     margin-left: 42px;
     color: #F06000;
+}
+footer .social-links li a {
+   color: #fff;
+}
+footer .social-links li a:hover {
+   color: #0762f9;
 }
 
 footer .social-links li:first-child { margin-left: 0; }
