@@ -69,27 +69,35 @@
         "projects": [
             {
                 "title": "Sketch Art",
+                "category": "Android Application",
                 "description": "Android application for drawing",
                 "image": "sketchart.png",
-                "url": "https://play.google.com/store/apps/details?id=com.inphamous.sketchart"
+                "url": "https://play.google.com/store/apps/details?id=com.inphamous.sketchart",
+                "modalname": "sketchart"
             },
             {
                 "title": "Mina's Homebody Adventure",
+                "category": "Unity2D Game",
                 "description": "Unity2D adventure game",
                 "image": "minagame.png",
-                "url": "https://phamcindy619.itch.io/minas-homebody-adventure"
+                "url": "https://phamcindy619.itch.io/minas-homebody-adventure",
+                "modalname": "minagame"
             },
             {
                 "title": "nav.igate",
+                "category": "Web Application",
                 "description": "Web calendar application for scheduling meetings based on distance",
                 "image": "navigate.png",
-                "url": "https://ru-hacks-2020.ue.r.appspot.com"
+                "url": "https://ru-hacks-2020.ue.r.appspot.com",
+                "modalname": "navigate"
             },
             {
                 "title": "Social Story",
+                "category": "Web Application",
                 "description": "Web application for sexual assault data visualization",
                 "image": "socialstory.png",
-                "url": "https://manyaagarwal.github.io/datastory/"
+                "url": "https://manyaagarwal.github.io/datastory/",
+                "modalname": "socialstory"
             }
         ]
     }
