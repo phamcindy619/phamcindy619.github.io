@@ -6,7 +6,7 @@ class Footer extends Component {
 
         if (this.props.data) {
             var networks = this.props.data.social.map((network) => {
-                return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+                return <li key={network.name}><a href={network.url} target="_blank" rel="noreferrer noopener"><i className={network.className}></i></a></li>
             })
         }
 
@@ -19,9 +19,9 @@ class Footer extends Component {
                         </ul>
 
                         <ul className="copyright">
-                            <li>&copy; Copyright 2020 <a title="Cindy Pham" href="https://phamcindy619.github.io">Cindy Pham</a></li>
-                            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-                            <li>Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jefferson Santos</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li>
+                            <li>&copy; Copyright 2020 <a title="Cindy Pham" href="https://phamcindy619.github.io" target="_blank" rel="noreferrer noopener">Cindy Pham</a></li>
+                            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/" target="_blank" rel="noreferrer noopener">Styleshout</a></li>
+                            <li>Photo by <a href="https://unsplash.com/@jefflssantos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noreferrer noopener">Jefferson Santos</a> on <a href="https://unsplash.com/images/things/music?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank" rel="noreferrer noopener">Unsplash</a></li>
                         </ul>
                     </div>
                     <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open"></i></a></div>
