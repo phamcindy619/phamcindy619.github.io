@@ -12,7 +12,7 @@ class Resume extends Component {
                         <p className="info">
                             {education.degree} <span>&bull;</span><em className="date">{education.graduated}</em>
                         </p>
-                        <p>Clubs &amp; Organizations: {education.clubs}</p>
+                        <p><b>Clubs &amp; Organizations</b>: {education.clubs}</p>
                     </div>
                 );
             });
