@@ -175,8 +175,9 @@ class Portfolio extends Component {
                                         <div className="categories">Game Development</div>
                                         <p>Protest Protector is a side-scrolling platformer game created in Unity2D. 
                                             This project was a submission for the UT Black Lives Matter Game Jam 2020. 
-                                            I was responsible for scripting character movement, level generation, 
-                                            UI elements and sound. The game is currently only supported by Windows.</p>
+                                            I was responsible for designing the UI, scripting character movement, level generation, 
+                                            UI functionalities and audio, deploying the game builds, and beta testing. The game is currently 
+                                            supported by Windows, MacOS, and WebGL.</p>
                                     </div>
                                     <div className="link-box">
                                         <a href="https://ashleypoprik.itch.io/protest-protector" target="_blank" rel="noreferrer noopener">Visit Project</a>
