@@ -19,7 +19,7 @@ class Portfolio extends Component {
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>Sketch Art</h5>
-                                                <p>Android Application</p>
+                                                <p>Android Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -30,7 +30,7 @@ class Portfolio extends Component {
                                     <img src="images/sketchart.png" alt="Sketch Art" />
                                     <div className="description-box">
                                         <h3>Sketch Art</h3>
-                                        <div className="categories">Android Application</div>
+                                        <div className="categories">Android Development</div>
                                         <p>Sketch Art is a simple Android application aimed to help children practice drawing. 
                                             It was developed in Android Studio framework, with the front-end scripted in XML and 
                                             the back-end scripted in Java. The idea for the project was inspired by my own 
@@ -54,7 +54,7 @@ class Portfolio extends Component {
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>Mina's Homebody Adventure</h5>
-                                                <p>Unity2D Game</p>
+                                                <p>Game Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -65,7 +65,7 @@ class Portfolio extends Component {
                                     <img src="images/minagame.png" width="70%" alt="Mina's Homebody Adventure" />
                                     <div className="description-box">
                                         <h3>Mina's Homebody Adventure</h3>
-                                        <div className="categories">Unity2D Game</div>
+                                        <div className="categories">Game Development</div>
                                         <p>Mina's Homebody Adventure is a platform adventure game created in Unity2D. 
                                             This project is made as a birthday present for the team's favorite K-pop artist, 
                                             TWICE's Mina and her fans. I was responsible for designing UI/UX, scripting gameplay, 
@@ -86,7 +86,7 @@ class Portfolio extends Component {
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>nav.igate</h5>
-                                                <p>Web Application</p>
+                                                <p>Web Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -97,7 +97,7 @@ class Portfolio extends Component {
                                     <img src="images/navigate.png" width="70%" alt="nav.igate" />
                                     <div className="description-box">
                                         <h3>nav.igate</h3>
-                                        <div className="categories">Web Application</div>
+                                        <div className="categories">Web Development</div>
                                         <p>nav.igate is a web application, built by a team of four software engineers 
                                             as part of a 36-hour Hackathon. The app imports the user's calendar and allows 
                                             planning between back-to-back meetings, taking into account the distance, mode 
@@ -122,7 +122,7 @@ class Portfolio extends Component {
                                         <div className="overlay">
                                             <div className="portfolio-item-meta">
                                                 <h5>Social Story</h5>
-                                                <p>Web Application</p>
+                                                <p>Web Development</p>
                                             </div>
                                         </div>
                                         <div className="link-icon"><i className="icon-plus"></i></div>
@@ -133,7 +133,7 @@ class Portfolio extends Component {
                                     <img src="images/socialstory.png" width="70%" alt="Social Story" />
                                     <div className="description-box">
                                         <h3>Social Story</h3>
-                                        <div className="categories">Web Application</div>
+                                        <div className="categories">Web Development</div>
                                         <p>Social Story is a web application that hopes to tell stories about our society through 
                                             data. It was built using ReactJS as the main front-end framework and Google Firebase as the 
                                             database and media storage back-end. The initial launch hopes to inform the public about the social issue of sexual 
@@ -149,6 +149,37 @@ class Portfolio extends Component {
                                     </div>
                                     <div className="link-box">
                                         <a href="https://devpost.com/software/social-story" target="_blank" rel="noreferrer noopener">Visit Project</a>
+                                        <a href="#" className="popup-modal-dismiss">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#protestprotector" title="Protest Protector">
+                                        <img src="images/protestprotector.png" alt="Protest Protector" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Protest Protector</h5>
+                                                <p>Game Development</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+
+                                <div id="protestprotector" className="popup-modal mfp-hide">
+                                    <img src="images/protestprotector.png" width="70%" alt="Protest Protector" />
+                                    <div className="description-box">
+                                        <h3>Protest Protector</h3>
+                                        <div className="categories">Game Development</div>
+                                        <p>Protest Protector is a side-scrolling platformer game created in Unity2D. 
+                                            This project was a submission for the UT Black Lives Matter Game Jam 2020. 
+                                            I was responsible for scripting character movement, level generation, 
+                                            UI elements and sound. The game is currently only supported by Windows.</p>
+                                    </div>
+                                    <div className="link-box">
+                                        <a href="https://ashleypoprik.itch.io/protest-protector" target="_blank" rel="noreferrer noopener">Visit Project</a>
                                         <a href="#" className="popup-modal-dismiss">Close</a>
                                     </div>
                                 </div>
