@@ -6,12 +6,12 @@
         "bio": "I am currently a senior in Computer Science at the University of Texas at Austin. My hobbies include playing the piano, guitar, and violin and producing music.",
         "contactmessage": "Contact Me",
         "email": "phamcindy619@utexas.edu",
-        "phone": "512-903-8260",
+        "phone": "(512) 903-8260",
         "address": {
             "city": "Austin",
             "state": "Texas"
         },
-        "resumedownload": "CindyPhamResume.pdf",
+        "resumedownload": "CindyPham_Resume.pdf",
         "social": [
             {
                 "name": "facebook",
@@ -41,7 +41,7 @@
                 "school": "University of Texas at Austin",
                 "degree": "Bachelor's in Computer Science",
                 "graduated": "May 2021",
-                "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers"
+                "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers, Longhorn Gaming, Society of Asian Scientists and Engineers, IEEE Computer Society"
             }
         ],
         "skills": {
