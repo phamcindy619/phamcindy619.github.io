@@ -12,7 +12,8 @@ class Resume extends Component {
                         <p className="info">
                             {education.degree} <span>&bull;</span><em className="date">{education.graduated}</em>
                         </p>
-                        <p><b>Clubs &amp; Organizations</b>: {education.clubs}</p>
+                        <p><b>{education.courses? 'Relevant Coursework:': ''}</b> {education.courses}</p>
+                        <p><b>{education.courses? 'Clubs & Organizations:': ''}</b> {education.clubs}</p>
                     </div>
                 );
             });
