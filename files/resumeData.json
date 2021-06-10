@@ -107,6 +107,14 @@
                 "image": "socialstory.png",
                 "url": "https://manyaagarwal.github.io/datastory/",
                 "modalname": "socialstory"
+            },
+            {
+                "title": "Above Earth",
+                "category": "Web Application",
+                "description": "Web application for expeditions, space agencies, and related news",
+                "image": "aboveearth.png",
+                "url": "https://gitlab.com/maniponce22/above-earth",
+                "modalname": "aboveearth"
             }
         ]
     }
