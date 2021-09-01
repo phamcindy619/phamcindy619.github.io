@@ -3,7 +3,7 @@
         "name": "Cindy Pham",
         "description": "Full Stack Web Developer | Game Engineer | Android Developer",
         "image": "profilepic.jpg",
-        "bio": "I am currently a senior in Computer Science at the University of Texas at Austin. My hobbies include playing the piano, guitar, and violin and producing music. I am working on a Natural Language Processing (AI) project for an internship with SparkCognition this winter break.",
+        "bio": "I am a recent graduate from the University of Texas at Austin with a Bachelor's of Science in Computer Science. My hobbies include playing the piano, guitar, and violin and producing music. I am currently seeking a full-time job in full stack or game development.",
         "contactmessage": "Contact Me",
         "email": "phamcindy619@utexas.edu",
         "phone": "(512) 903-8260",
@@ -41,13 +41,14 @@
                 "school": "University of Texas at Austin",
                 "degree": "Bachelor's in Computer Science",
                 "graduated": "May 2021",
-                "courses": "Matrix Calculations, Probability & Statistics, Data Structures, Discrete Mathematics, Computer Architecture, Information Retrieval, Operating Systems, Algorithms & Complexity, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management",
+                "courses": "Matrix Calculations, Probability & Statistics, Data Structures, Discrete Mathematics, Computer Architecture, Information Retrieval, Operating Systems, Algorithms & Complexity, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management, Software Engineering, Competitive Programming, Object-Oriented Programming, Ethical Foundations of CS",
                 "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers, Longhorn Gaming, Society of Asian Scientists and Engineers, IEEE Computer Society"
             },
             {
                 "school": "Austin Community College",
                 "degree": "Associate's in Mathematics",
-                "graduated": "May 2017"
+                "graduated": "May 2017",
+                "courses": "Introduction to Programming, Calculus I, II, and III"
             }
         ],
         "skills": {
@@ -73,41 +74,5 @@
                 "Google Cloud Platform"
             ]
         }
-    },
-    "portfolio": {
-        "projects": [
-            {
-                "title": "Sketch Art",
-                "category": "Android Application",
-                "description": "Android application for drawing",
-                "image": "sketchart.png",
-                "url": "https://play.google.com/store/apps/details?id=com.inphamous.sketchart",
-                "modalname": "sketchart"
-            },
-            {
-                "title": "Mina's Homebody Adventure",
-                "category": "Unity2D Game",
-                "description": "Unity2D adventure game",
-                "image": "minagame.png",
-                "url": "https://phamcindy619.itch.io/minas-homebody-adventure",
-                "modalname": "minagame"
-            },
-            {
-                "title": "nav.igate",
-                "category": "Web Application",
-                "description": "Web calendar application for scheduling meetings based on distance",
-                "image": "navigate.png",
-                "url": "https://ru-hacks-2020.ue.r.appspot.com",
-                "modalname": "navigate"
-            },
-            {
-                "title": "Social Story",
-                "category": "Web Application",
-                "description": "Web application for sexual assault data visualization",
-                "image": "socialstory.png",
-                "url": "https://manyaagarwal.github.io/datastory/",
-                "modalname": "socialstory"
-            }
-        ]
     }
 }

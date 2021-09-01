@@ -70,7 +70,7 @@ class Portfolio extends Component {
                                             This project is made as a birthday present for the team's favorite K-pop artist, 
                                             TWICE's Mina and her fans. I was responsible for designing UI/UX, scripting gameplay, 
                                             beta testing, and debugging. The game is currently supported by Windows and MacOS and 
-                                            will be available for Android and iOS mobile devices in the near future.</p>
+                                            will hopefully be available for Android and iOS mobile devices in the near future.</p>
                                     </div>
                                     <div className="link-box">
                                         <a href="https://phamcindy619.itch.io/minas-homebody-adventure" target="_blank" rel="noreferrer noopener">Visit Project</a>
@@ -181,6 +181,99 @@ class Portfolio extends Component {
                                     </div>
                                     <div className="link-box">
                                         <a href="https://ashleypoprik.itch.io/protest-protector" target="_blank" rel="noreferrer noopener">Visit Project</a>
+                                        <a href="#" className="popup-modal-dismiss">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#aboveearth" title="Above Earth">
+                                        <img src="images/aboveearth.png" alt="Above Earth" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Above Earth</h5>
+                                                <p>Web Development</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+
+                                <div id="aboveearth" className="popup-modal mfp-hide">
+                                    <img src="images/aboveearth.png" width="70%" alt="Above Earth" />
+                                    <div className="description-box">
+                                        <h3>Above Earth</h3>
+                                        <div className="categories">Web Development</div>
+                                        <p>Above Earth is a website that informs users on upcoming and recently past flight and space exploration expeditions. 
+                                            The collection of expeditions, space agencies, and related news was scraped from multiple data APIs. It provides a RESTful API. 
+                                            The data supports filtering, sorting, searching, and pagination. The project uses ReactJS and Bootstrap for the frontend. It uses Python 
+                                            Flask and MySQL for the backend. The web app was deployed on Amazon Web Services.</p>
+                                    </div>
+                                    <div className="link-box">
+                                        <a href="https://gitlab.com/maniponce22/above-earth" target="_blank" rel="noreferrer noopener">Visit Project</a>
+                                        <a href="#" className="popup-modal-dismiss">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#rhythmgame" title="Cooking Crescendo">
+                                        <img src="images/rhythmgame.png" alt="Cooking Crescendo" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Cooking Crescendo</h5>
+                                                <p>Game Development</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+
+                                <div id="rhythmgame" className="popup-modal mfp-hide">
+                                    <img src="images/rhythmgame.png" width="70%" alt="Cooking Crescendo" />
+                                    <div className="description-box">
+                                        <h3>Cooking Crescendo</h3>
+                                        <div className="categories">Game Development</div>
+                                        <p>Cooking Crescendo is a cooking rhythm game created in Unity2D. 
+                                            This project was a submission for the Rhythm Game Jam 2021. 
+                                            I was responsible for designing the UI, scripting the game/audio managers, song selection, notes spawn, animations, code refactoring, 
+                                            and deploying the game builds. The game is currently supported by Windows, MacOS, and WebGL.</p>
+                                    </div>
+                                    <div className="link-box">
+                                        <a href="https://phamcindy619.itch.io/cooking-crescendo" target="_blank" rel="noreferrer noopener">Visit Project</a>
+                                        <a href="#" className="popup-modal-dismiss">Close</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="columns portfolio-item">
+                                <div className="item-wrap">
+                                    <a href="#kenneygame" title="Apocalyptic Carousel">
+                                        <img src="images/kenneygame.png" alt="Apocalyptic Carousel" />
+                                        <div className="overlay">
+                                            <div className="portfolio-item-meta">
+                                                <h5>Apocalyptic Carousel</h5>
+                                                <p>Game Development</p>
+                                            </div>
+                                        </div>
+                                        <div className="link-icon"><i className="icon-plus"></i></div>
+                                    </a>
+                                </div>
+
+                                <div id="kenneygame" className="popup-modal mfp-hide">
+                                    <img src="images/kenneygame.png" width="70%" alt="Apocalyptic Carousel" />
+                                    <div className="description-box">
+                                        <h3>Apocalyptic Carousel</h3>
+                                        <div className="categories">Game Development</div>
+                                        <p>Apocalyptic Carousel is a top-down shooter game created in Unity2D. 
+                                            This project was a submission for the Kenney Game Jam 2021. 
+                                            I was responsible for designing and developing everything within the game, except for the art and music assets. 
+                                            The game is currently supported by Windows, MacOS, and WebGL.</p>
+                                    </div>
+                                    <div className="link-box">
+                                        <a href="https://phamcindy619.itch.io/apocalyptic-carousel" target="_blank" rel="noreferrer noopener">Visit Project</a>
                                         <a href="#" className="popup-modal-dismiss">Close</a>
                                     </div>
                                 </div>
