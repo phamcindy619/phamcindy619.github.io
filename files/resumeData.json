@@ -50,6 +50,14 @@
                 "graduated": "May 2017"
             }
         ],
+        "work": [
+            {
+                "company": "SparkCognition",
+                "title": "Winter Break Intern",
+                "years": "January 2021",
+                "description": "Worked with team of 4 to provide quality assurance for DeepNLP software product; Automated information retrieval and document classification on large, unstructured datasets; Presented metrics based on AI's performance accuracy and provided feedback on user experience"
+            }
+        ],
         "skills": {
             "languages": [
                 "Java",
