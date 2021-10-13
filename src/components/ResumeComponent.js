@@ -17,6 +17,15 @@ class Resume extends Component {
                     </div>
                 );
             });
+            var work = this.props.data.work.map((work) => {
+                return (
+                    <div key={work.company}>
+                        <h3>{work.company}</h3>
+                        <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+                        <p>{work.description}</p>
+                    </div>
+                );
+            });
             var languages = this.props.data.skills.languages.map((language) => {
                 return (
                     <li key={language}>
@@ -49,6 +58,16 @@ class Resume extends Component {
                     </div>
                 </div>
 
+                <div className="row work">
+                    <div className="three columns header-col">
+                        <h1><span>Work</span></h1>
+                    </div>
+
+                    <div className="nine columns main-col">
+                        {work}
+                    </div>
+                </div>
+
                 <div className="row skill">
                     <div className="three columns header-col">
                         <h1><span>Skills</span></h1>
@@ -62,7 +81,7 @@ class Resume extends Component {
                     </div>
 
                     <div className="four columns main-col">
-                        <h1>Frameworks</h1>
+                        <h1>Tools</h1>
                         <ul className="skills">
                             {frameworks}
                         </ul>
