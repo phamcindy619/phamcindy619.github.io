@@ -1,7 +1,7 @@
 {
     "main": {
         "name": "Cindy Pham",
-        "description": "Full Stack Web Developer | Game Engineer | Android Developer",
+        "description": "Full Stack Web Developer | Game Engineer | Android Application Developer",
         "image": "profilepic.jpg",
         "bio": "I am a recent graduate from the University of Texas at Austin with a Bachelor's of Science in Computer Science. My hobbies include playing the piano, guitar, and violin and producing music. I am currently seeking a full-time job in full stack or game development.",
         "contactmessage": "Contact Me",
@@ -41,7 +41,7 @@
                 "school": "University of Texas at Austin",
                 "degree": "Bachelor's in Computer Science",
                 "graduated": "May 2021",
-                "courses": "Matrix Calculations, Probability & Statistics, Data Structures, Discrete Mathematics, Computer Architecture, Information Retrieval, Operating Systems, Algorithms & Complexity, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management, Software Engineering, Competitive Programming, Object-Oriented Programming, Ethical Foundations of CS",
+                "courses": "Matrix Calculations, Probability & Statistics, Data Structures, Discrete Mathematics, Computer Architecture, Information Retrieval, Operating Systems, Algorithms, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management, Software Engineering, Competitive Programming, Object-Oriented Programming, Ethical Foundations of CS",
                 "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers, Longhorn Gaming, Society of Asian Scientists and Engineers, IEEE Computer Society"
             },
             {
@@ -55,22 +55,24 @@
             "languages": [
                 "Java",
                 "Python",
-                "C/C++",
+                "C",
+                "C++",
                 "C#",
                 "HTML",
                 "CSS",
-                "Javascript"
+                "Javascript",
+                "Typescript",
+                "SQL"
             ],
             "frameworks": [
                 "Git",
-                "Bootstrap",
-                "ReactJS",
-                "NodeJS",
-                "Flask",
                 "Unity",
+                "ReactJS",
+                "Flask",
+                "Docker",
                 "Godot",
+                "Bootstrap",
                 "Android Studio",
-                "MongoDB",
                 "Google Cloud Platform"
             ]
         }
