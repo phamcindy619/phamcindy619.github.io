@@ -14,7 +14,8 @@ class Main extends Component {
         super(props);
 
         this.state = {
-            resumeData: {}
+            resumeData: {},
+            projectsData: {}
         };
 
         ReactGA.initialize('UA-171590784-1');
@@ -36,8 +37,25 @@ class Main extends Component {
         });
     }
 
+    getProjectsData() {
+        $.ajax({
+            url: './files/projectsData.json',
+            dataType: 'json',
+            cache: false,
+            success: ((data) => {
+                this.setState({ projectsData: data });
+            }).bind(this),
+            error: ((xhr, status, err) => {
+                console.log(err);
+                alert(err);
+            })
+        });
+    }
+    
+
     componentDidMount() {
         this.getResumeData();
+        this.getProjectsData();
     }
 
     render() {
@@ -46,7 +64,7 @@ class Main extends Component {
                 <Header data={this.state.resumeData.main} />
                 <About data={this.state.resumeData.main} />
                 <Resume data={this.state.resumeData.resume} />
-                <Portfolio data={this.state.resumeData.portfolio} />
+                <Portfolio data={this.state.projectsData.portfolio} />
                 {/* <Contact data={this.state.resumeData.main} /> */}
                 <Footer data={this.state.resumeData.main} />
             </div>

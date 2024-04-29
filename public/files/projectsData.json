@@ -1,0 +1,69 @@
+{
+    "portfolio": {
+        "projects": [
+            {
+                "name": "Sketch Art",
+                "id": "sketchart",
+                "category": "Android Development",
+                "description": "Sketch Art is a simple Android application aimed to help children practice drawing. It was developed in Android Studio framework, with the front-end scripted in XML and the back-end scripted in Java. The idea for the project was inspired by my own struggles as an artist. In order to draw something, I would need to reference a picture of what I wanted to draw. Therefore, my app has a selection of pictures for users to choose from as they are painting, with the save functionality to keep as a memento. Sketch Art was built individually by me as a personal project. It is currently published in the Google Play store under the name, inPHAMous Technologies.",
+                "link": "https://play.google.com/store/apps/details?id=com.inphamous.sketchart"
+            },
+            {
+                "name": "Mina's Homebody Adventure",
+                "id": "minagame",
+                "category": "Game Development",
+                "description": "Mina's Homebody Adventure is a platform adventure game created in Unity2D. This project is made as a birthday present for the team's favorite K-pop artist, TWICE's Mina and her fans. I was responsible for designing UI/UX, scripting gameplay, unit testing, and debugging. The game is currently supported by Windows and MacOS and will hopefully be available for Android and iOS mobile devices in the near future.",
+                "link": "https://phamcindy619.itch.io/minas-homebody-adventure"
+            },
+            {
+                "name": "nav.igate",
+                "id": "navigate",
+                "category": "Full-Stack Development",
+                "description": "nav.igate is a web application, built by a team of four software engineers as part of a 36-hour Hackathon. The app imports the user's calendar and allows planning between back-to-back meetings, taking into account the distance, mode of transportation, and travel times to determine whether the agenda is possible. The front-end is powered by Python Flask and uses the Bootstrap library to design UI/UX elements. The back-end is hooked up to a Firebase server to handle flexible data loads. nav.igate relies on integrations from the Google Calendar, Distance Matrix and Maps APIs. The web application is deployed through Google Cloud Platform.",
+                "link": "https://devpost.com/software/nav-igate"
+            },
+            {
+                "name": "Social Story",
+                "id": "socialstory",
+                "category": "Full-Stack Development",
+                "description": "Social Story is a web application that hopes to tell stories about our society through data. It was built using ReactJS as the main front-end framework and Google Firebase as the database and media storage back-end. The initial launch hopes to inform the public about the social issue of sexual harassment and how cases have risen as more people are speaking up about their story. Related data and visualizations for the U.S. is provided. As data is scattered everywhere (especially regarding social issues), we want this platform to act as a means to consolidate it. This process will take place both through scraping popular news websites for information and relying on the open source community. As an open source project, people can contribute data attached with their trusted sources, which will then be reviewed by the administrators. There is also a list of resources and help centers for victims of sexual harassment which can also use more support of the community to cover a large part of the world.",
+                "link": "https://devpost.com/software/social-story"
+            },
+            {
+                "name": "Protest Protector",
+                "id": "protestprotector",
+                "category": "Game Development",
+                "description": "Protest Protector is a side-scrolling platformer game created in Unity2D. This project was a submission for the UT Black Lives Matter Game Jam 2020. I was responsible for designing the UI, scripting character movement, level generation, UI functionalities and audio, deploying the game builds, and beta testing. The game is currently supported by Windows, MacOS, and WebGL.",
+                "link": "https://ashleypoprik.itch.io/protest-protector"
+            },
+            {
+                "name": "Above Earth",
+                "id": "aboveearth",
+                "category": "Web Development",
+                "description": "Above Earth is a web application that informs users on upcoming and recently past flight and space exploration expeditions. The collection of expeditions, space agencies, and related news was scraped from multiple data APIs. It provides a RESTful API. The data supports filtering, sorting, searching, and pagination. The project uses ReactJS and Bootstrap for the frontend. It uses Python Flask and MySQL for the backend. The web app was deployed on Amazon Web Services.",
+                "link": "https://gitlab.com/maniponce22/above-earth"
+            },
+            {
+                "name": "Cooking Crescendo",
+                "id": "rhythmgame",
+                "category": "Game Development",
+                "description": "Cooking Crescendo is a cooking rhythm game created in Unity2D. This project was a submission for the Rhythm Game Jam 2021. I was responsible for designing the UI, scripting the game/audio managers, song selection, notes spawn, animations, code refactoring, and deploying the game builds. The game is currently supported by Windows, MacOS, and WebGL.",
+                "link": "https://phamcindy619.itch.io/cooking-crescendo"
+            },
+            {
+                "name": "Apocalyptic Carousel",
+                "id": "kenneygame",
+                "category": "Game Development",
+                "description": "Apocalyptic Carousel is a top-down shooter game created in Unity2D. This project was a submission for the Kenney Game Jam 2021. I was responsible for designing and developing everything within the game, except for the art and music assets. The game is currently supported by Windows, MacOS, and WebGL.",
+                "link": "https://phamcindy619.itch.io/apocalyptic-carousel"
+            },
+            {
+                "name": "K-Pop Simulator",
+                "id": "kpopsim",
+                "category": "Game Development",
+                "description": "K-Pop Simulator is based on my real life experiences and inspired by my favorite K-pop group TWICE. This was a solo project, so I was responsible for designing and developing the entirety of the game. The game is a 2D simulation, with missions to complete to reach the end goal of attending a concert. The game was developed in Unity and is currently supported by Windows, MacOS, and WebGL. I learned and incorporated efficient software and game design patterns, in hopes of further updating the game with more stages in the future.",
+                "link": "https://phamcindy619.itch.io/k-pop-simulator"
+            }
+        ]
+    }
+}
