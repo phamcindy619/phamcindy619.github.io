@@ -8,7 +8,7 @@ class Portfolio extends Component {
                 return (
                     <div className="columns portfolio-item">
                         <div className="item-wrap">
-                            <a href={`#${project.id}`} title={project.name}>
+                            <a href={`#${project.id}`} title={project}>
                                 <img src={`images/${project.id}.png`} alt={project.name} />
                                 <div className="overlay">
                                     <div className="portfolio-item-meta">
