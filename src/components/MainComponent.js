@@ -5,7 +5,6 @@ import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import About from './AboutComponent';
 import Resume from './ResumeComponent';
-import Contact from './ContactComponent';
 import Portfolio from './PortfolioComponent';
 
 class Main extends Component {
@@ -29,7 +28,7 @@ class Main extends Component {
             cache: false,
             success: ((data) => {
                 this.setState({ resumeData: data });
-            }).bind(this),
+            }),
             error: ((xhr, status, err) => {
                 console.log(err);
                 alert(err);
@@ -44,7 +43,7 @@ class Main extends Component {
             cache: false,
             success: ((data) => {
                 this.setState({ projectsData: data });
-            }).bind(this),
+            }),
             error: ((xhr, status, err) => {
                 console.log(err);
                 alert(err);

@@ -26,7 +26,7 @@
                 "name": "Social Story",
                 "id": "socialstory",
                 "category": "Full-Stack Development",
-                "description": "Social Story is a web application that hopes to tell stories about our society through data. It was built using ReactJS as the main front-end framework and Google Firebase as the database and media storage back-end. The initial launch hopes to inform the public about the social issue of sexual harassment and how cases have risen as more people are speaking up about their story. Related data and visualizations for the U.S. is provided. As data is scattered everywhere (especially regarding social issues), we want this platform to act as a means to consolidate it. This process will take place both through scraping popular news websites for information and relying on the open source community. As an open source project, people can contribute data attached with their trusted sources, which will then be reviewed by the administrators. There is also a list of resources and help centers for victims of sexual harassment which can also use more support of the community to cover a large part of the world.",
+                "description": "Social Story is a web application that informs users about the social issue of sexual harassment through data visualization. It was built using ReactJS as the main front-end framework and Google Firebase as the database and media storage back-end. The process of data consolidation is done by scraping news websites and relying on the open source community. People are able to contribute reliable information, which will be reviewed by the administrators.",
                 "link": "https://devpost.com/software/social-story"
             },
             {
