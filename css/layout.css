@@ -433,7 +433,9 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* Portfolio Content */
-#portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio-wrapper .columns { 
+   margin-bottom: 36px;
+}
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -546,8 +548,8 @@ ul#nav li.current a { color: #fe6928; }
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-semibold', sans-serif;
-   color: #111;
+   font: 12px/21px 'opensans-semibold', sans-serif;
+   color: #cb6728;
    text-transform: uppercase;
    letter-spacing: 2px;
    display: block;
