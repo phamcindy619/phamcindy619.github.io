@@ -18,14 +18,14 @@
             {
                 "name": "nav.igate",
                 "id": "navigate",
-                "category": "Full-Stack Development",
+                "category": "Full-Stack Web Development",
                 "description": "nav.igate is a web application, built by a team of four software engineers as part of a 36-hour Hackathon. The app imports the user's calendar and allows planning between back-to-back meetings, taking into account the distance, mode of transportation, and travel times to determine whether the agenda is possible. The front-end is powered by Python Flask and uses the Bootstrap library to design UI/UX elements. The back-end is hooked up to a Firebase server to handle flexible data loads. nav.igate relies on integrations from the Google Calendar, Distance Matrix and Maps APIs. The web application is deployed through Google Cloud Platform.",
                 "link": "https://devpost.com/software/nav-igate"
             },
             {
                 "name": "Social Story",
                 "id": "socialstory",
-                "category": "Full-Stack Development",
+                "category": "Full-Stack Web Development",
                 "description": "Social Story is a web application that informs users about the social issue of sexual harassment through data visualization. It was built using ReactJS as the main front-end framework and Google Firebase as the database and media storage back-end. The process of data consolidation is done by scraping news websites and relying on the open source community. People are able to contribute reliable information, which will be reviewed by the administrators.",
                 "link": "https://devpost.com/software/social-story"
             },
@@ -39,7 +39,7 @@
             {
                 "name": "Above Earth",
                 "id": "aboveearth",
-                "category": "Web Development",
+                "category": "Full-Stack Web Development",
                 "description": "Above Earth is a web application that informs users on upcoming and recently past flight and space exploration expeditions. The collection of expeditions, space agencies, and related news was scraped from multiple data APIs. It provides a RESTful API. The data supports filtering, sorting, searching, and pagination. The project uses ReactJS and Bootstrap for the frontend. It uses Python Flask and MySQL for the backend. The web app was deployed on Amazon Web Services.",
                 "link": "https://gitlab.com/maniponce22/above-earth"
             },
