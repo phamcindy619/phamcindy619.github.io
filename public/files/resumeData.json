@@ -1,11 +1,11 @@
 {
     "main": {
         "name": "Cindy Pham",
-        "description": "Full Stack Web Developer | Game Engineer | Android Application Developer",
+        "description": "Full Stack Web Developer | Game Developer | Android Application Developer",
         "image": "profilepic.jpg",
-        "bio": "I am currently an AI Quality Controller at TELUS International. I graduated from the University of Texas at Austin in 2021 with a Bachelor's of Science in Computer Science. My hobbies include playing the piano, guitar, and violin and producing music. I am currently seeking a full-time job in full stack or game development.",
+        "bio": "I am currently an AI Quality Controller at TELUS International. I have a Bachelor's in Computer Science and an Associate's in Mathematics. My hobbies include playing the piano, guitar, and violin, producing music, building Legos, and developing games. I am currently seeking a full-time role as a software engineer.",
         "contactmessage": "Contact Me",
-        "email": "phamcindy619@utexas.edu",
+        "email": "phamcindy619@gmail.com",
         "phone": "(512) 903-8260",
         "address": {
             "city": "Austin",
@@ -55,7 +55,7 @@
                 "company": "TELUS International",
                 "title": "AI Quality Controller",
                 "years": "May 2022",
-                "description": "Analyze and provide feedback on AI-generated responses to user prompts; Review and rate relevance of result blocks returned from search engine queries"
+                "description": "Evaluate quality of AI-generated responses to user queries based on pre-defined guidelines; Analyze and provide feedback to improve user experience; Review and rate relevance of result blocks returned from search engine queries"
             },
             {
                 "company": "SparkCognition",
@@ -68,25 +68,30 @@
             "languages": [
                 "Java",
                 "Python",
-                "C",
-                "C++",
+                "C/C++",
                 "C#",
                 "HTML",
                 "CSS",
                 "Javascript",
                 "Typescript",
-                "SQL"
+                "SQL",
+                "x86 Assembly",
+                "R"
             ],
             "frameworks": [
                 "Git",
                 "Unity",
-                "ReactJS",
+                "React.js",
                 "Flask",
                 "Docker",
                 "Godot",
                 "Bootstrap",
                 "Android Studio",
-                "Google Cloud Platform"
+                "Google Cloud",
+                "MySQL",
+                "Linux",
+                "Selenium",
+                "Postman"
             ]
         }
     }
