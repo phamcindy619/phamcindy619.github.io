@@ -3,7 +3,7 @@
         "name": "Cindy Pham",
         "description": "Full Stack Web Developer | Game Developer | Android Application Developer",
         "image": "profilepic.jpg",
-        "bio": "I am currently an AI Quality Controller at TELUS International. I have a Bachelor's in Computer Science and an Associate's in Mathematics. My hobbies include playing the piano, guitar, and violin, producing music, building Legos, and developing games. I am currently seeking a full-time role as a software engineer.",
+        "bio": "I am currently an AI Quality Control Freelancer at TELUS International and Outlier AI. I have a Bachelor's in Computer Science and an Associate's in Mathematics. My hobbies include playing the piano, guitar, and violin, producing music, building Legos, and developing games. I am currently seeking a full-time role as a software engineer.",
         "contactmessage": "Contact Me",
         "email": "phamcindy619@gmail.com",
         "phone": "(512) 903-8260",
@@ -11,7 +11,7 @@
             "city": "Austin",
             "state": "Texas"
         },
-        "resumedownload": "CindyPham_Resume.pdf",
+        "resumedownload": "CindyPham_SWE_Resume.pdf",
         "social": [
             {
                 "name": "facebook",
@@ -41,34 +41,36 @@
                 "school": "University of Texas at Austin",
                 "degree": "Bachelor's in Computer Science",
                 "graduated": "May 2021",
-                "courses": "Matrix Calculations, Probability & Statistics, Data Structures, Discrete Mathematics, Computer Architecture, Information Retrieval, Operating Systems, Algorithms, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management, Software Engineering, Competitive Programming, Object-Oriented Programming, Ethical Foundations of CS",
+                "courses": "Probability & Statistics, Discrete Mathematics, Information Retrieval, Operating Systems, Computer Networks, Network Security & Privacy, Modern Web Applications, Game Technology, Data Management, Software Engineering, Competitive Programming, Object-Oriented Programming, Ethical Foundations of CS",
                 "clubs": "K-Beat Dance Team, Electronic Game Developers Society, Information & Systems Security Society, Texas Music Producers, Longhorn Gaming, Society of Asian Scientists and Engineers, IEEE Computer Society"
             },
             {
                 "school": "Austin Community College",
                 "degree": "Associate's in Mathematics",
-                "graduated": "May 2017"
+                "graduated": "May 2017",
+                "courses": "Data Structures, Algorithms, Computer Architecture"
             }
         ],
         "work": [
             {
-                "company": "TELUS International",
-                "title": "AI Quality Controller",
+                "company": "TELUS International, Outlier AI",
+                "title": "AI Quality Control Freelancer",
                 "years": "May 2022",
-                "description": "Evaluate quality of AI-generated responses to user queries based on pre-defined guidelines; Analyze and provide feedback to improve user experience; Review and rate relevance of result blocks returned from search engine queries"
+                "description": "Evaluate quality of generative AI responses to user queries based on pre-defined guidelines; Provide feedback used to train LLMs and improve user experience; Assess how effectively models extract relevant information when using API tools to address user requests"
             },
             {
                 "company": "SparkCognition",
                 "title": "Winter Break Intern",
                 "years": "January 2021",
-                "description": "Work with team of 4 to provide quality assurance for DeepNLP software product; Automate information retrieval and document classification on large, unstructured datasets; Present metrics based on AI's performance accuracy and provided feedback on user experience"
+                "description": "Provide quality assurance for DeepNLP software product; Automate information retrieval and document classification on large, unstructured datasets; Present metrics based on AI's performance accuracy and provided feedback on user experience"
             }
         ],
         "skills": {
             "languages": [
                 "Java",
                 "Python",
-                "C/C++",
+                "C",
+                "C++",
                 "C#",
                 "HTML",
                 "CSS",
